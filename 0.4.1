@@ -1,0 +1,33 @@
+Collecting torch
+  Downloading https://files.pythonhosted.org/packages/f8/02/880b468bd382dc79896eaecbeb8ce95e9c4b99a24902874a2cef0b562cea/torch-0.1.2.post2.tar.gz (128kB)
+Collecting pyyaml (from torch)
+  Using cached https://files.pythonhosted.org/packages/fb/aa/1a7ac452c52b93ab759d0b5b81c901ea122d95a5abf429decc660a44a2f1/PyYAML-5.3.1-cp37-cp37m-win_amd64.whl
+Installing collected packages: pyyaml, torch
+  Running setup.py install for torch: started
+    Running setup.py install for torch: finished with status 'error'
+    Complete output from command "c:\users\sorin\desktop\mamografie ai\breast_cancer_classifier-master\venv\scripts\python.exe" -u -c "import setuptools, tokenize;__file__='C:\\Users\\Sorin\\AppData\\Local\\Temp\\pip-install-uhpyds90\\torch\\setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record C:\Users\Sorin\AppData\Local\Temp\pip-record-aebttc0f\install-record.txt --single-version-externally-managed --compile --install-headers "c:\users\sorin\desktop\mamografie ai\breast_cancer_classifier-master\venv\include\site\python3.7\torch":
+    running install
+    running build_deps
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "C:\Users\Sorin\AppData\Local\Temp\pip-install-uhpyds90\torch\setup.py", line 265, in <module>
+        description="Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      File "c:\users\sorin\desktop\mamografie ai\breast_cancer_classifier-master\venv\lib\site-packages\setuptools\__init__.py", line 129, in setup
+        return distutils.core.setup(**attrs)
+      File "C:\Users\Sorin\AppData\Local\Programs\Python\Python37\lib\distutils\core.py", line 148, in setup
+        dist.run_commands()
+      File "C:\Users\Sorin\AppData\Local\Programs\Python\Python37\lib\distutils\dist.py", line 966, in run_commands
+        self.run_command(cmd)
+      File "C:\Users\Sorin\AppData\Local\Programs\Python\Python37\lib\distutils\dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "C:\Users\Sorin\AppData\Local\Temp\pip-install-uhpyds90\torch\setup.py", line 99, in run
+        self.run_command('build_deps')
+      File "C:\Users\Sorin\AppData\Local\Programs\Python\Python37\lib\distutils\cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "C:\Users\Sorin\AppData\Local\Programs\Python\Python37\lib\distutils\dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "C:\Users\Sorin\AppData\Local\Temp\pip-install-uhpyds90\torch\setup.py", line 51, in run
+        from tools.nnwrap import generate_wrappers as generate_nn_wrappers
+    ModuleNotFoundError: No module named 'tools.nnwrap'
+    
+    ----------------------------------------
